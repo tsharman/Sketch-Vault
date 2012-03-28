@@ -1,0 +1,12 @@
+.image_div {
+	display: inline;
+}
+.image_div_contents {
+	display: block;
+}
+.image_div_img {
+	float: left;
+	margin-right: 5px;
+	width: 40px;
+}
+

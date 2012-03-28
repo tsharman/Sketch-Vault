@@ -1,0 +1,7 @@
+<?php
+
+$appId = '';
+$appSecret = '';
+$baseSite = '';
+
+?>

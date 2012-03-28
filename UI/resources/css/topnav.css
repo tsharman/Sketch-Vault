@@ -1,0 +1,70 @@
+* {
+margin: 0px;
+padding: 0px;
+}
+/*
+COMPLEMENT COLORS
+BASE: #4B9BB2
+
+#4b9bb2
+#4a71e5
+#3e424c
+#bc937e
+#e5694a
+
+*/
+
+.bottom_shadow(@distance) {
+	-moz-box-shadow: inset @distance 0px #888;
+	-webkit-box-shadow: inset @distance 0px #888;
+	box-shadow: inset -5px 0px #888;
+}
+
+#top_nav {
+	.bottom_shadow(-5px);
+	font-family: helvetica;
+	width: 100%;
+	background: #4b9bb2;
+}
+#top_nav_inner {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.nav_button {
+	font-size: 15px;
+	color: white;
+	display: inline-block;
+	padding: 5px;
+	cursor: pointer;
+	font-weight: bold;
+}
+.nav_button:hover {
+	background: #333;
+	cursor: pointer;
+}
+.active_nav {
+	background: #333;
+}
+#top_nav_header_text {
+	font-family: helvetica;
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
+	margin-bottom: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	text-decoration: none;
+	display: inline-block;
+}
+
+#sign_in_button, #sign_out_button {
+	float: right;
+}
+
+#top_nav_header_img {
+	width: 33px;
+	margin-right: 5px;
+	display: inline-block;
+}

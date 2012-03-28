@@ -1,0 +1,46 @@
+.dialog {
+	padding: 10px;
+	border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+	background: #eee;
+	position: absolute;
+	z-index: 2;
+	display: none;
+	font-family: helvetica;
+}
+#sign_in_buttons {	
+	float: left;
+	margin-left: 20px;
+}
+.login_button_wrapper {
+	text-decoration: none;
+}
+.login_button {
+	font-weight: bold;
+	padding: 5px;
+	border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+	text-decoration: none;
+	display: inline;
+}
+.login_button:hover {
+	background: #555;
+}
+#dialog_image {
+	display: inline;
+	float: left;
+	width: 20px;
+}
+#fb_login_button {
+	background: #3b5998;
+	color: white;
+}
+#shadow {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background: #999;
+	opacity: 0.5;
+	z-index: 1;
+	display: none;
+}

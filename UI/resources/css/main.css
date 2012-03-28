@@ -1,0 +1,20 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	font-family: helvetica;
+}
+@font-face {
+	font-family: "Chunkfive";
+	src: url("../Chunkfive.otf");
+}
+a {
+	text-decoration: none;
+}
+#content {
+	width: 960px;
+	margin-top: 20px;
+	 margin-left: auto;
+	margin-right: auto;
+}

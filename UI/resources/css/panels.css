@@ -1,0 +1,47 @@
+.panel {
+	border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px;
+	float: right;
+	width: 260px;
+	padding: 10px;
+	font-family: helvetica;
+	margin-bottom: 10px;
+}
+#user_meta_panel {
+background: #e5694a;
+}
+
+#featured_panel {
+	background: #3e424c;
+	color: white;
+}
+#twitter_panel {
+	background: #666;
+	color: white;
+	cursor: pointer;
+}
+#twitter_panel:hover {
+	background: #444;
+}
+
+.featured_webcomic {
+	margin-bottom: 5px;
+	font-size: 20px;
+	color: white;
+}
+#fb_name {
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 10px;
+	float: left;
+	
+}
+#fb_city {
+float: left;
+	margin-left: 10px;
+	color: white;	
+}
+#fb_img {
+float: left;
+}
+
