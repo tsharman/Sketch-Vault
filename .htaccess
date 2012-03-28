@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteRule ^new/?$ /index.php?page=new [L]
+RewriteRule ^popular/day/?$ /index.php?page=popular&filter=day
+RewriteRule ^popular/week/?$ /index.php?page=popular&filter=week
+RewriteRule ^popular/?$ /index.php?page=popular [L]
+RewriteRule ^favorites/?$ /index.php?page=favorites [L]
